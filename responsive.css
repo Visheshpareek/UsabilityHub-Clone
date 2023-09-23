@@ -1,0 +1,144 @@
+@media screen and (max-width: 991px){
+    .nav-link{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        text-align: center;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-link.active{
+        left: 0;
+    }
+    .nav-link ul{
+        flex-direction: column;
+    }
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .card-section{
+     gap: 20px;
+    }
+    .card{
+        height: 200px;
+        width: 48%;
+    }
+    .card p{
+        font-size: 22px;
+        font-weight: 600;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .hero-section{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .hero-content a{
+        width: 80%;
+    }
+    .hero-content{
+      width: 90%;
+      text-align: center;
+      align-items: center;
+    }
+    .feature-section{
+        margin-top: 4rem;
+    }
+    .feature-box{
+        gap: 20px;
+       width: 45%;
+    }
+    .big-feature-box{
+        flex-direction: column;
+    }
+    .reverse-box{
+        flex-direction: column-reverse;
+    }
+    .example-section{
+        margin-top: 30px;
+    }
+    .cta-content a{
+        width: 100%;
+    }
+    .footer-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-list{
+        margin-top: 20px;
+    }
+    .footer-list h4{
+        margin-bottom: 10px;
+    }
+    .sub-footer{
+        flex-direction: column;
+        max-width: 600px;
+        text-align: center;
+        gap: 20px;
+    }
+    .sub-link{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:580px){
+    .card{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 479px){
+    .container{
+        padding-inline: 10px;
+    }
+    .hero-content h1{
+        font-size: 30px;
+    }
+    .hero-content p{
+        font-size: 16px;
+    }
+    .company-section p{
+        font-size: 16px;
+    }
+    .feature-header h2{
+        font-size: 26px;
+     }
+     .feature-box{
+       width: 100%;
+     }
+     .feature-box h3{
+      font-size: 20px;
+     }
+    .feature-box p{
+      font-size: 16px;
+     }
+     .big-feature-content h5{
+      font-size: 16px;
+     }
+     .big-feature-content h2{
+      font-size: 26px;
+     }
+     .big-feature-content p{
+      font-size: 16px;
+     }
+     .example-header h2{
+      font-size: 30px;
+     }
+     .card p{
+      font-size: 20px;
+     }
+     .cta-content h1{
+      font-size: 30px;
+     }
+     .cta-content p{
+      font-size: 16px;
+     }
+}
